@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand -->
+    <color name="emp_primary">#0097A7</color>
+    <color name="emp_background">#F2F6F8</color>
+    <color name="emp_surface">#FFFFFF</color>
+    <color name="emp_sidebar">#26343F</color>
+
+    <!-- Text -->
+    <color name="emp_text_primary">#1D2B36</color>
+    <color name="emp_text_secondary">#66788A</color>
+    <color name="emp_icon_muted">#8FA1AE</color>
+
+    <!-- Status -->
+    <color name="emp_green">#168A52</color>
+    <color name="emp_red">#D03C3C</color>
+    <color name="emp_orange">#D26A0A</color>
+    <color name="emp_green_soft">#26168A52</color>
+    <color name="emp_red_soft">#26D03C3C</color>
+
+    <!-- Misc -->
+    <color name="emp_placeholder">#D9ECF0</color>
+    <color name="emp_outline">#D5DEE3</color>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Used for both confirm (tick / cross) and message (exit) pop-ups -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/dialogIcon"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_circle_green_soft"
+        android:contentDescription="Success"
+        android:padding="16dp"
+        android:src="@drawable/ic_check"
+        android:tint="@color/emp_green"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/dialogMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/emp_text_primary"
+        style="@style/TextSection"/>
+
+    <LinearLayout
+        android:id="@+id/confirmRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/yesButton"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_pill"
+            android:backgroundTint="@color/emp_green"
+            android:contentDescription="Yes"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_check"/>
+
+        <ImageButton
+            android:id="@+id/noButton"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_pill"
+            android:backgroundTint="@color/emp_red_soft"
+            android:contentDescription="No"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_close"
+            android:tint="@color/emp_red"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/exitButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_pill"
+        android:backgroundTint="@color/emp_primary"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:text="Exit"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+
+</LinearLayout>

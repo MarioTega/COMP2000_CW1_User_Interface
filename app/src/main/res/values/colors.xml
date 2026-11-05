@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Button Colours -->
+    <color name="button_red">#E05252</color>
+    <color name="button_green">#36A879</color>
+    <color name="button_orange">#EF9B45</color>
+    <color name="button_purple">#8064C8</color>
+
+    <!-- Background Colours -->
+    <color name="background_purple">#F0EBFA</color>
+    <color name="background_grey">#F2F3F5</color>
+    <color name="background_blue">#E8F3FA</color>
+
+    <!-- Basic Colours -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Text Colours -->
+    <color name="text_primary">#252525</color>
+    <color name="text_secondary">#777777</color>
+    <color name="text_hint">#999999</color>
+    <color name="red">#FF0000</color>
+
+</resources>
